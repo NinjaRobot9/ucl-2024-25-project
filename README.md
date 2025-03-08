@@ -1,7 +1,16 @@
-# ucl-2024-25-project
-Basic Data Engineering and Architecture project of the Champions League for season 2024/25
-Data Warehouse with CSV files for data analysis and extraction
-Apache Airflow usage for orchestrating the workflow 
-Python scripts in VS Code
-#1. Creating Database in MySQL Workbench with tables, consisting the players, teams, matches, goals and standings.
-#2. Importing data from CSV Files for the Data Warehouse.
+# Data Engineering Project - UEFA Champions League Database
+
+## 1. Creating Database in MySQL Workbench
+- Design and create tables for:
+  - Players
+  - Teams
+  - Matches
+  - Goals
+  - Standings
+- Define primary keys, foreign keys, and relationships.
+- Apply `ON DELETE CASCADE` or `ON DELETE SET NULL` where needed.
+
+## 2. Importing Data from CSV Files
+- Extract relevant data from CSV files.
+- Clean and transform the data before import.
+- Load the data into the MySQL database for further processing.
